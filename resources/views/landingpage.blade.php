@@ -85,10 +85,10 @@
             <div class="d-flex justify-content-center">
                 <div class="row">
                     <div class="col-md-6 text-center">
-                        <img src="https://images.unsplash.com/photo-1559242550-bdfaa5081d95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="box">
+                        <img src="https://images.unsplash.com/photo-1559242550-bdfaa5081d95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="box" class="img-fluid">
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="https://images.unsplash.com/photo-1559242550-bdfaa5081d95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="box">
+                        <img src="https://images.unsplash.com/photo-1559242550-bdfaa5081d95?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="box" class="img-fluid">
                     </div>
                 </div>
             </div>
