@@ -17,9 +17,9 @@
 </head>
 
 <body>
-    <div class="col-md-6 mx-auto mb-4">
+    <div class="col-md-6 mx-auto mb-3">
     <a href="{{ url('/')}}">
-            <div class="col d-flex align-items-center justify-content-center mt-5"> <img class="mb-4" src="/img/biioo-logo.png">
+            <div class="col d-flex align-items-center justify-content-center mt-4"> <img class="mb-4" src="/img/biioo-logo.png">
             </div>
         </a>
         @yield('content')
