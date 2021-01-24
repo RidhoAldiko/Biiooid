@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\User\DashboardController;
+use App\Http\Controllers\Auth\GoogleController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -24,6 +25,9 @@ Route::get('/harga', function () {
 });
 
 Auth::routes(['verify' => true]);
+
+Route::get('auth/google', [GoogleController::class, 'redirectToGoogle']);
+Route::get('auth/google/callback', [GoogleController::class, 'handleGoogleCallback']);
 
 //Route Group with users login access
 Route::middleware('auth')->group(function () {

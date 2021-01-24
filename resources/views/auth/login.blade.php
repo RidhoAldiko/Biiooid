@@ -47,10 +47,10 @@
             </a>
         </div>
         <hr class="divider">
-        <button type="submit" class="button-white btn-lg btn-block">
+        <a href="{{ url('auth/google') }}" class="text-center text-decoration-none button-white btn-lg btn-block">
             <div class="float-left"> <i class="fab fa-google"></i></div>{{ __('Login dengan
             google') }} 
-        </button>
+        </a>
     </form>
 </div>
 

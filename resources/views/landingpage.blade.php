@@ -1,5 +1,5 @@
 @extends('layouts.landing_page.landingpage-app')
-@section('title', 'BIIOLINK')
+@section('title', 'Biiooid')
 @section('content')
 
 <div class="bg-white pages">
