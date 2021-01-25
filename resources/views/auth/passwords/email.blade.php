@@ -3,7 +3,7 @@
 @section('content')
 
 
-<h2 class="text-center mt-4 mb-5 ">{{ __('Masukkan alamat email Anda') }}<br>
+<h2 class="text-center mt-4 mb-5 ">{{ __('Masukkan alamat email kamu') }}<br>
     {{ __('untuk me-reset password') }}</h2>
 <div class="col-md-6 mx-auto ">
     @if (session('status'))
@@ -14,7 +14,7 @@
     <form method="POST" action="{{ route('password.email') }}">
         @csrf
         <div class="form-group ">
-            <label for="email">{{ __('Email address') }}</label>
+            <label for="email">{{ __('Alamat Email') }}</label>
             <input id="email" type="email" class="form-control border-radius-8 @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
             @error('email')
